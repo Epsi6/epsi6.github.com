@@ -1,198 +1,87 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Derivado de "Proyecto: libro de recetas"</title>
         <meta charset="utf-8">
+        <title>Menganito´s birthday</title>
         <style>
-        body{
-            background-color:rgb(222, 212, 186);
-        }
-        .ingredients{
-            color:rgb(44, 131, 171);
-        }
-        .quantitys{
-            color:rgb(209, 15, 135);
-        }
-        .steps{
-            color:rgb(154, 104, 212);
-        }
-        p{
-            font-family:serif;
-        }
+            body{
+                padding:0;
+                margin:0;
+                background-image:url("https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/fireworks-over-harbor.png");
+                background-size:cover;
+                background-repeat:no-repeat;
+                background-attachment:fixed;
+            }
+            .top-bar{
+                font-family:sans-serif;
+                color:rgb(255, 255, 255);
+                font-weight:bold;
+                background-color:rgb(21, 42, 161);
+                position:fixed;
+                display:flex;
+                align-items:center;
+                justify-content: center;
+                width:100%;
+                z-index:3;
+                height: 50px;
+                border-top:3px solid #8080ff;
+                border-bottom:3px solid #8080ff;
+            }
+            .invitation{
+                background-color:rgb(255, 255, 255);
+                width:50%;
+                margin-left:25%;
+                padding-top:50px;
+                position:absolute;
+                z-index:2;
+                border-left:3px rgb(145, 145, 145) solid;
+                border-right:3px rgb(145, 145, 145) solid;
+                border-bottom:3px rgb(145, 145, 145) solid;
+            }
+            .head-center{
+                text-align:center;
+            }
+            h2{
+                padding-left:5px;
+                text-decoration:underline;
+            }
+            p{
+                padding-left:3px;
+            }
+            .li-head{
+                color:rgb(21, 42, 161);
+            }
+            #ending{
+                padding-right:6px;
+                text-align:right;
+                font-style:italic;
+            }
+            li{
+                padding-right:5px;
+            }
         </style>
     </head>
     <body>
-       
-        <h1>Mama's Recipes Book</h1>
+    <div class="top-bar">
+        <h1>MENGANITO´S BIRTHDAY </h1>
+   </div>
+    <div class="invitation">
+        <h1 class="head-center">You're invited!</h1>
         
-        <h2>Contents:</h2>
-        
-        <ol>
-            <li><a href="#first-recipe">Recipe 1 (Apple Pie)</a>               </li>
-            <li><a href="#second-recipe">Receta 2 (Cheesecake)</a></li>
-        
-            <li><a href="#third-recipe">Receta 3 (Glass of water)</a></li>
-        </ol>
- 
-        
-<!--Primera receta (Tarta de manzana)-->
-        
-        <h2 id="first-recipe">First recipe (Apple Pie)</h2>
-        
+        <h2>Important info:</h2>
         <ul>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Apple_pie_14.jpg/1280px-Apple_pie_14.jpg" width="190">
-            <li>Time: 55 minutes</li>
-            <li>Serves: 6</li>
+            <li><span class="li-head">Date:</span> 11/05/23</li>
+            <li><span class="li-head">Place:</span> Menganito´s house</li>
         </ul>
         
-        <table>
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="ingredients">Apples</td>
-                    <td class="quantitys">4</td>
-                </tr>
-                <tr>
-                    <td class="ingredients">Baking powder</td>
-                    <td class="quantitys">Half a packet</td>
-                </tr>
-                <tr>
-                    <td class="ingredients">Flour</td>
-                    <td class="quantitys">180g</td>
-                </tr>
-                <tr>
-                    <td class="ingredients">Eggs</td>
-                    <td class="quantitys">2</td>
-                </tr>
-                 <tr>
-                    <td class="ingredients">Brown sugar</td>
-                    <td class="quantitys">100g</td>
-                </tr>
-                 <tr>
-                    <td class="ingredients">Milk</td>
-                    <td class="quantitys">175ml</td>
-                </tr>
-                 <tr>
-                    <td class="ingredients">Berries</td>
-                    <td class="quantitys">Some (Decore)</td>
-                </tr>
-                 <tr>
-                    <td class="ingredients">Apricot jam</td>
-                    <td class="quantitys">1 jar</td>
-                </tr>
-                <tr>
-                    <td class="ingredients">Butter and flour</td>
-                    <td class="quantitys">Some (For the mould)</td>
-                </tr>
-            </tbody>
-        </table>
-<!--Elaboración de la tarta-->
-        <h2>Elaboration</h2>
-<p><strong class="steps">Step 1:</strong>  Put the flour, the baking powder, the eggs, the sugar, the apples (peeled and cutted in cubes) and the milk in the mixer, and crush it untill it become a homogenous dough.
-</p>
-<p><strong class="steps">Step 2:</strong> Now pour the mixture into a mold spreaded with butter and flour.</p>
-<p><strong class="steps">Step 3:</strong> Peel the 2 others apples, cut them in leaves and cover the surface of the pie. </p>
-<p><strong class="steps">Step 4:</strong> Bake the pie at 180ºC for 45 minutes.  </p>
-<p><strong class="steps">Step 5:</strong> Wait untill the pie gets cold, take it out of the mold, and add a little bit of the apricot jam in the surface </p>
-<p><strong class="steps">Step 6:</strong> Finaly decore it with some of the berries and serve it </p>
-<!--Final de la elaboración de la tarta-->
+        <h2>Activities:</h2>
         
-    <p><em>Source: <a target="_blank" href="https://www.hogarmania.com/cocina/recetas/postres/tarta-manzana-arguinano-23491.html">hogarmania/applepie</a></em></p>
-
-<!--Fin de la primera receta-->
-
-<!--Inicio segunda receta-->
-
-    <h2 id="second-recipe">Second recipe (Cheesecake)</h2>
-    
-    <ul>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/0stkaka.jpg/1920px-0stkaka.jpg" width="190">
-        <li>Time: 55 minutes
-        <li>Price per serve: 0,7$
-    </ul>
-    
-<!--Tabla de ingredientes 2-->
-    <table>
-        <thead>
-            <tr>
-                <th>Ingredients</th>
-                <th>Quantity</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="ingredients">Cream cheese</td>
-                <td class="quantitys">350g</td>
-            </tr>
-            <tr>
-                <td class="ingredients">Eggs (XL)</td>
-                <td class="quantitys">2</td>
-            </tr>
-            <tr>
-                <td class="ingredients">Sugar</td>
-                <td class="quantitys">100g</td>
-            </tr>
-            <tr>
-                <td class="ingredients">Wheat flour</td>
-                <td class="quantitys">40g</td>
-            </tr>
-            <tr>
-                <td class="ingredients">Cream (35%GM)</td>
-                <td class="quantitys">175g</td>
-            </tr>
-        </tbody>
-    </table>
-<!--Elaboración 2-->
-    <h2>Elaboration</h2>
-    
-    <p><strong class="steps">Step 1:</strong> Take a mold about 20 X 20 cm, grease it with some butter and put some parchment paper.</p>
-    <p><strong class="steps">Step 2:</strong> Preheat the oven at 200 ºC with heat in both sides. </p>
-    <p><strong class="steps">Step 3:</strong> Add all the ingredients in a bowl. It´s important that the cream cheese is at natural temperature to work with it easier.</p>
-    <p><strong class="steps">Step 4:</strong> Mix all the mixture with your hands or a hand rod untill all of the lumps disappear. </p>
-    <p><strong class="steps">Step 5:</strong> Pour all the mixture into the mold and place it into the oven at 200 ºC for 45 minutes with heat up and down.</p>
-    <p><strong class="steps">Step 6:</strong> Finaly take the mold out of the oven and wait untill it gets cold.</p>
-    
-    <p><em>Source: <a href="https://www.recetasderechupete.com/tarta-de-queso-al-horno/11579/" target="_blank">recetasderechupete/cheesecake</a></em></p>
-    
-<!--Tercera elaboración-->
-
-    <h2 id="third-recipe">Third recipe (Glass of water)</h2>
-    <ul>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Water_drop_001.jpg/1024px-Water_drop_001.jpg" width="190">
-    <li>Time: Depends on how long your tap is
-    <li>Serves: 1
-    </ul>
-    
-    <table>
-        <thead>
-            <tr>
-                <th>Ingredients
-                <th>Quantity
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="ingredients">Glass          <td class="quantitys">1
-            </tr>
-            <tr>
-                <td class="ingredients">Water          <td class="quantitys">A glass 
-            </tr>
-        </tbody>
-    </table>
-<!--Fin de la tabla de ingredientes-->
-    <h2>Elaboration</h2>
-    
-    <p><strong class="steps">Step 1:</strong> Take a glass. </p>
-    <p><strong class="steps">Step 2:</strong> Fill it with water.</p>
-    <p><strong class="steps">Step 3:</strong> Enjoy!</p>
-    
-    <p><em>Source: myself</em></p>
-    
-    
+        <ul>
+            <li>We´re going to make a huge ping pong tournament and the winner will be rewarded with an incredible surprise </li>
+            <br>
+             <li>We´re doing too a barbecue, so remember to bring some meat</li>
+        </ul>
+        <p id="ending">I´m waiting for all of you.<br>Menganito.</p>
+    </div>
     </body>
 </html>
